@@ -1,7 +1,8 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.png";
-import CV from "../../assets/Smith-Cv.pdf";
+import AboutImg from "../../assets/LSU.png";
+import CV from "../../assets/resume.pdf";
+import Info from "./Info";
 
 const About = () => {
   return (
@@ -10,13 +11,13 @@ const About = () => {
       <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid ">
+        <img src={AboutImg} alt="" className="about__img" />
 
         <div className="about__data">
+          <Info />
 
           <p className="about__description">
-          I have always been interested in logical problem solving and this explains my passion for informational technology and programmming in general. When I was little I loved learning puzzles like the rubics cube and spent lots of time memorizing algorithms to solve them faster. As I got older, I discovered programming and this time I was the one developing algorithms............ 
-
-
+            I am a Juinor studying Computer Science with a concentration in Cybersecurity at LSU. I a 
           </p>
 
           <a download="" href={CV} className="button button--flex">
