@@ -24,6 +24,6 @@ This is my personal website, built with React. The site includes information abo
 
 ## Live Version
 
-A live version of the site can be found at [https://example.com](https://example.com)
+A live version of the site can be found at https://sghimi.github.io/portfolio
 
 ## Screenshots
