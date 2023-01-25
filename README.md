@@ -27,3 +27,4 @@ This is my personal website, built with React. The site includes information abo
 A live version of the site can be found at https://sghimi.github.io/portfolio
 
 ## Screenshots
+![image](https://user-images.githubusercontent.com/28690072/214472283-bb5138c1-0917-457e-8fad-19e007037d1b.png)
