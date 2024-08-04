@@ -17,7 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I am a Juinor studying Computer Science with a concentration in Cybersecurity at LSU. I a 
+          Hello! I am a recent graduate from Louisiana State University (LSU) with a degree in Computer Science and a concentration in Cybersecurity. I am passionate about protecting digital assets and well-versed in cybersecurity standards and regulations. I have hands-on experience with network security, cryptography, and ethical hacking, and currently work on a startup focusing on backend development. I also have IT experience. In my free time, I enjoy exploring vulnerabilities in home IoT devices, participating in bug bounty programs on HackerOne, reverse engineering applications, and developing automation tools to enhance productivity at my current position as a IT technician at MMR.
           </p>
 
           <a download="" href={CV} className="button button--flex">
