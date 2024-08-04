@@ -11,15 +11,6 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">JavaScript</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
               <h3 className="skills__name">Python</h3>
               <span className="skills__level">Advanced</span>
             </div>
@@ -33,6 +24,15 @@ const Frontend = () => {
               <span className="skills__level">Advanced</span>
             </div>
           </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">C</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
         </div>
 
         <div className="skills__group">
@@ -40,8 +40,8 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Bash</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">SQL</h3>
+              <span className="skills__level">Beginner</span>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">C</h3>
+              <h3 className="skills__name">Powershell</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
@@ -58,8 +58,8 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">React</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Bash</h3>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
         </div>

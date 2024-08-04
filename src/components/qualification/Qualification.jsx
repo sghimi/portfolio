@@ -50,9 +50,9 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Highschool</h3>
+                <h3 className="qualification__title">Lee Magnet High</h3>
                 <span className="qualification__subtitle">
-                  Lee Magnet High
+                  Highschool
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2016-2020
@@ -74,24 +74,24 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Website Developer</h3>
+                <h3 className="qualification__title">Louisiana State University</h3>
                 <span className="qualification__subtitle">
-                  NLBS
+                  College 
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2020 - May 2024
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">University</h3>
+                <h3 className="qualification__title">Louisiana State University</h3>
                 <span className="qualification__subtitle">
-                  LSU
+                  College 
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - (Expected: 2024)
+                  <i className="uil uil-calendar-alt"></i> 2020 - May 2024
                 </div>
               </div>
 
@@ -108,15 +108,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
               </div>
 
-              <div>
-                <h3 className="qualification__title">Research Assistant</h3>
-                <span className="qualification__subtitle">
-                  LSU 
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022
-                </div>
-              </div>
+              
             </div>
           </div>
 
@@ -129,9 +121,9 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">Research Assistant</h3>
                 <span className="qualification__subtitle">
-                  Microsoft - Spain
+                  LSU - Visualizing molecular dynamics
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2021 - Present
@@ -153,22 +145,22 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
+                <h3 className="qualification__title">Research Project</h3>
                 <span className="qualification__subtitle">
-                  Apple Inc - Spain
+                  LSU - IOT Forensics and analysis
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2023
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
+                <h3 className="qualification__title">IT Intern</h3>
+                <span className="qualification__subtitle">MMR</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2023
                 </div>
               </div>
 
@@ -176,6 +168,8 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
               </div>
             </div>
+
+            
           </div>
         </div>
       </div>
