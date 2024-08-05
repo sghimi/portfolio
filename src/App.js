@@ -7,6 +7,7 @@ import Skills from './components/skills/Skills';
 import Qualification from './components/qualification/Qualification';
 import Work from './components/Portfolio/Work';
 import Contact from './components/contact/Contact';
+import Services from './components/services/Services';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import ThemeToggleButton from './components/ThemeToggleButton';
@@ -33,7 +34,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <ThemeToggleButton toggleTheme={toggleTheme} />
+      <ThemeToggleButton toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
       <main className='main'>
         <Home />
         <About />
@@ -41,6 +42,7 @@ const App = () => {
         <Qualification />
         <Work />
         <Contact />
+        <Services />
       </main>
       <Footer />
       <ScrollUp />
