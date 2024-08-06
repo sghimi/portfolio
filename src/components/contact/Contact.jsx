@@ -1,9 +1,10 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import "./contact.css";
 
 const Contact = () => {
   const form = useRef();
+  const [submissionStatus, setSubmissionStatus] = useState(""); // State to track submission status
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -15,7 +16,17 @@ const Contact = () => {
         form.current,
         "ZOQCLoXaTJxkIo9E0"
       )
-      e.target.reset()
+      .then(
+        (result) => {
+          console.log(result.text);
+          setSubmissionStatus("success"); // Set status to success
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          setSubmissionStatus("error"); // Set status to error
+        }
+      );
   };
 
   return (
@@ -110,7 +121,7 @@ const Contact = () => {
             <button className="button button--flex">
               Send Message
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -127,6 +138,11 @@ const Contact = () => {
                 ></path>
               </svg>
             </button>
+
+            <div className={`contact__message ${submissionStatus ? "show" : ""} ${submissionStatus}`}>
+              {submissionStatus === "success" && "Email sent successfully!"}
+              {submissionStatus === "error" && "Failed to send email. Please try again."}
+            </div>
           </form>
         </div>
       </div>

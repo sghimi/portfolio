@@ -42,7 +42,6 @@ const App = () => {
         <Qualification />
         <Work />
         <Contact />
-        <Services />
       </main>
       <Footer />
       <ScrollUp />

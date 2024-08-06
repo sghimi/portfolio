@@ -62,6 +62,9 @@ const Frontend = () => {
               <span className="skills__level">Advanced</span>
             </div>
           </div>
+
+
+          
         </div>
       </div>
     </div>
