@@ -10,7 +10,8 @@ import Contact from './components/contact/Contact';
 import Services from './components/services/Services';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
-import ThemeToggleButton from './components/ThemeToggleButton';
+import ThemeToggleButton from './components/darkmode/ThemeToggleButton';
+import Birds from './components/birds/Birds';
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -34,10 +35,12 @@ const App = () => {
   return (
     <>
       <Header />
+      
       <ThemeToggleButton toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
       <main className='main'>
         <Home />
         <About />
+        <Birds/>
         <Skills />
         <Qualification />
         <Work />
