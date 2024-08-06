@@ -80,20 +80,7 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Louisiana State University</h3>
-                <span className="qualification__subtitle">College</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - May 2024
-                </div>
-              </div>
 
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
 
             <div className="qualification__data">
               <div></div>
