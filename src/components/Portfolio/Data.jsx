@@ -1,31 +1,34 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
-
 export const projectsData = [
   {
     id: 1,
-    title: "The Phish Initiative",
-    category: "web",
+    title: "AutomatedSpiceworks",
+    category: "scripts",
+    link: "https://github.com/sghimi/AutomatedSpiceworks"
   },
   {
     id: 2,
-    title: "XDATCAR",
+    title: "roomba-tool",
     category: "scripts",
+    link: "https://github.com/sghimi/roomba-tool"
   },
   {
     id: 3,
-    title: "Ceaser Encoder/Decryter",
-    category: "design",
+    title: "The Phish Initiative",
+    category: "web",
+    link: "https://github.com/sghimi/The-Phish-Initiative"
   },
   {
     id: 4,
-    title: "Password Strengh Calculator",
-    category: "app",
+    title: "Portfolio",
+    category: "web",
+    link: "https://github.com/sghimi/Portfolio"
   },
-
+  {
+    id: 5,
+    title: "AD-Tools",
+    category: "scripts",
+    link: "https://github.com/sghimi/AD-Tools"
+  },
 ];
 
 // projects

@@ -35,7 +35,7 @@ const About = () => {
               </p>
 
               <p className="about__description">
-                Currently, I work as an IT Technician Tier 3 at MMR Group, where I’ve gained valuable experience in infrastructure management. I work with technologies such as Active Directory, Azure AD, and Microsoft 365, and I’ve implemented automation solutions using PowerShell and Python to streamline various tasks. This role has allowed me to enhance both efficiency and security within our enterprise environment.
+                Currently, I work as an IT Tech at MMR Group, where I’ve gained valuable experience in infrastructure management. I work with technologies such as Active Directory, Azure AD, and Microsoft 365, and I’ve implemented automation solutions using PowerShell and Python to streamline various tasks. This role has allowed me to enhance both efficiency and security within our enterprise environment.
               </p>
 
               <p className="about__description">

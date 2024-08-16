@@ -13,7 +13,7 @@ const OtherSkills = () => {
 
             <div>
               <h3 className="skills__name">Active Directory</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
 
@@ -22,7 +22,7 @@ const OtherSkills = () => {
 
             <div>
               <h3 className="skills__name">Azure AD & Intune</h3>
-              <span className="skills__level">Beginner</span>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
 
@@ -42,7 +42,7 @@ const OtherSkills = () => {
 
             <div>
               <h3 className="skills__name">Microsoft 365 Admin</h3>
-              <span className="skills__level">Beginner</span>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -51,7 +51,7 @@ const OtherSkills = () => {
 
             <div>
               <h3 className="skills__name">Mimecast</h3>
-              <span className="skills__level">Beginner</span>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 

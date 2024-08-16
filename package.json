@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sghimi.github.io/portfolio",
+  "homepage": "https://sghimi.github.io",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +16,7 @@
     "emailjs": "^4.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
     "swiper": "^11.1.9",
     "web-vitals": "^4.2.2"

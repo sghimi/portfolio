@@ -158,7 +158,7 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">IT Tech Tier 3</h3>
+                <h3 className="qualification__title">IT Tech</h3>
                 <span className="qualification__subtitle">MMR Group</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2023 - Current
