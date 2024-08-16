@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import "./App.css";
 import Header from './components/header/Header';
 import Home from './components/home/Home';
@@ -11,7 +11,8 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import ThemeToggleButton from './components/darkmode/ThemeToggleButton';
-import Blog from './components/blog/Blog'; // Import the Blog component
+import Blog from './components/blog/Blog';
+import BlogDetail from './components/blog/BlogDetail'; // Import the BlogDetail component
 import Birds from './components/birds/Birds';
 
 const App = () => {
@@ -38,7 +39,6 @@ const App = () => {
       <ThemeToggleButton toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
       <main className='main'>
         <Routes>
-          {/* Main Page */}
           <Route path="/" element={
             <>
               <Home />
@@ -52,6 +52,8 @@ const App = () => {
           } />
           {/* Blog Page */}
           <Route path="/blog" element={<Blog />} />
+          {/* Blog Detail Page */}
+          <Route path="/blog/:title" element={<BlogDetail />} />
         </Routes>
       </main>
       <Footer />
