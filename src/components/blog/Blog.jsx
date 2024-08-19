@@ -54,7 +54,7 @@ const Blog = () => {
           >
             <h3 className="blog__title">{post.title}</h3>
             <span className="blog__date">{post.date}</span>
-            <p className="blog__content">{post.content}</p>
+            <p className="blog__content">{post.subtitle}</p>
             <div className="blog__tags">
               {post.tags.map((tag, index) => (
                 <span

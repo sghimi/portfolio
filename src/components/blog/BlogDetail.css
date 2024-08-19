@@ -1,0 +1,112 @@
+/* Blog detail container */
+.blog-detail__container {
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+    width: 100%;
+    margin-top: 4rem; /* Add space to push content below the header */
+  }
+  
+  .blog-detail {
+    background-color: var(--body-color); /* Softer background color */
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto;
+    text-align: center; /* Center the text and content */
+  }
+  
+  .blog-detail__title {
+    font-size: 2.5rem; /* Make the title bigger */
+    color: var(--title-color);
+    margin-bottom: 1.5rem;
+  }
+  
+  .blog-detail__date {
+    font-size: 1.2rem; /* Slightly increase the date font size */
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .blog-detail__content {
+    font-size: 1.2rem; /* Slightly larger content font size */
+    color: var(--text-color); /* Slightly darker gray for content */
+    line-height: 1.8; /* Better line spacing for readability */
+    text-align: left; /* Align text to the left for readability */
+    margin-bottom: 2rem; /* Add space below the content */
+    max-width: 100%; /* Ensure content does not overflow */
+    margin: 0 auto; /* Center the content container */
+  }
+  
+  /* Styling for code blocks */
+  .blog-detail__content pre {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left; /* Align code text to the left */
+    max-width: 100%; /* Ensure it doesn't overflow the container */
+    margin: 2rem auto; /* Center the code block with margin around it */
+  }
+  
+  .blog-detail__content code {
+    background-color: #e6e6e6; /* Slightly darker background for inline code */
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Image styling */
+  .blog-detail__content img {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem auto; /* Center images and add space around them */
+    display: block;
+  }
+  
+  /* Blockquote styling */
+  .blog-detail__content blockquote {
+    margin: 2rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid var(--text-color);
+    color: var(--text-color);
+    font-style: italic;
+  }
+  
+  /* List styling */
+  .blog-detail__content ul,
+  .blog-detail__content ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+    text-align: left; /* Align lists to the left */
+  }
+  
+  .blog-detail__content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .blog-detail {
+      padding: 1.5rem;
+      max-width: 100%;
+    }
+  
+    .blog-detail__title {
+      font-size: 2rem; /* Adjust title size for smaller screens */
+    }
+  
+    .blog-detail__date {
+      font-size: 1rem; /* Adjust date size for smaller screens */
+    }
+  
+    .blog-detail__content {
+      font-size: 1rem; /* Adjust content size for smaller screens */
+    }
+  
+    .blog-detail__content pre {
+      padding: 0.75rem; /* Adjust code block padding for smaller screens */
+    }
+  }
+  

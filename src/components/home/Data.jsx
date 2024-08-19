@@ -3,19 +3,15 @@ import React from "react";
 const Data = () => {
   return (
     <div className="home__data">
-      <h1 className="home__title">
-        Saugat Ghimire
-
-      </h1>
-      <h3 className="home__subtitle"></h3>
-      <p className="home__description">
-        
-      </p>
-
-      <a href="#contact" className="button button--flex">
+      <div className="home__name-container">
+        <h1 className="home__title">
+          Saugat <span className="home__title--last-name">Ghimire</span>
+        </h1>
+      </div>
+      <a href="#contact" className="button button--flex home__say-hello">
         Say Hello
         <svg
-          class="button__icon"
+          className="button__icon"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
